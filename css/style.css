@@ -32,3 +32,31 @@ header h1{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+.search-box input{
+    padding: 7.5px 30px;
+    background-color: lightgrey;
+    border: none;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+nav a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 10px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.699);
+}
+
+nav a:hover{
+    color: #ff0040;
+}
