@@ -89,3 +89,35 @@ nav a:hover{
     height: 100%;
     object-fit: cover;
 }
+
+.carousel .list .item .content{
+    position: absolute;
+    top: 10%;
+    width: 1140px;
+    max-width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-right: 30%;
+    box-sizing: border-box;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.598);
+}
+
+.content h1{
+    font-size: 65px;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+
+.details{
+    display: flex;
+    text-wrap: nowrap;
+    margin-bottom: -20px;
+}
+
+.details p{
+    border-right: 2px solid white;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffcc00;
+    padding: 0 10px;
+}
