@@ -121,3 +121,32 @@ nav a:hover{
     color: #ffcc00;
     padding: 0 10px;
 }
+
+.details p:last-child{
+    border: none;
+}
+
+.content h4{
+    max-width: 400px;
+    font-size: 17px;
+    line-height: 25px;
+    margin: 40px 0;
+}
+
+.carousel .buttons{
+    display: flex;
+}
+
+.download-btn{
+    width: 150px;
+    padding: 12px 0;
+    font-weight: bold;
+    border: none;
+    background-color: #ffcc00;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.566);
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
