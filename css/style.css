@@ -214,3 +214,23 @@ nav a:hover{
     border-radius: 50px;
     mix-blend-mode: lighten;
 }
+
+.thumbnail .item .thum-content{
+    bottom: 10px;
+    left: 40px;
+    right: 10px;
+}
+
+/* ARROWS */
+
+.arrows{
+    position: absolute;
+    top: 80%;
+    right: 42%;
+    z-index: 100;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
