@@ -234,3 +234,40 @@ nav a:hover{
     gap: 10px;
     align-items: center;
 }
+
+.arrows button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: lightgray;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.arrows button:hover{
+    background-color: lightgray;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.612);
+}
+
+/* ANIMATION */
+.carousel .list .item:nth-child(1){
+    z-index: 1;
+}
+
+/*ANIMATION FOR CONTENT */
+.carousel .list .item:nth-child(1) .content{
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent .5s 1s linear 1 forwards;
+}
+
+@keyframes showContent {
+    to{
+        filter: blur(0);
+        opacity: 1;
+    }
+}
