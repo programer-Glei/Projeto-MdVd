@@ -302,3 +302,25 @@ nav a:hover{
         transform: translateX(150px);
     }
 }
+
+/* PREV CLICK */
+.carousel.prev .list .item:nth-child(2){
+    z-index: 200;
+}
+
+.carousel.prev .list .item:nth-child(2) img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: outFrame 0.5s linear 1 forwards;
+}
+
+@keyframes outFrame {
+    to{
+        width: 150px;
+        height: 220px;
+        bottom: 50px;
+        left: 50%;
+        border-radius: 50px;
+    }
+}
