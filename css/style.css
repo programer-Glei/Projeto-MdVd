@@ -324,3 +324,19 @@ nav a:hover{
         border-radius: 50px;
     }
 }
+
+.carousel.prev .list .item:nth-child(2) .content{
+    animation: contentOut 1.5s linear 1 forwards;
+}
+
+@keyframes contentOut {
+    to{
+        filter: blur(20px);
+        opacity: 0;
+    }
+}
+
+.carousel.next .arrows button,
+.carousel.prev .arrows button{
+    pointer-events: none;
+}
