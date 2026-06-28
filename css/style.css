@@ -340,3 +340,14 @@ nav a:hover{
 .carousel.prev .arrows button{
     pointer-events: none;
 }
+
+/* RUNNING TIME */
+.carousel .time{
+    position: absolute;
+    z-index: 999;
+    width: 0;
+    height: 5px;
+    background-color: #ff0040;
+    left: 0;
+    top: 0;
+}
