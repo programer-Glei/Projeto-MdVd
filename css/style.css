@@ -351,3 +351,18 @@ nav a:hover{
     left: 0;
     top: 0;
 }
+
+.carousel.next .time,.carousel.prev .time{
+    animation: runningTime 2s linear 1 forwards;
+}
+
+@keyframes runningTime {
+    from{width: 100%;}
+    to{width: 0%;}
+}
+
+@media screen and (max-width:900px){
+    .carousel .list .item .content{
+        padding: 0;
+    }
+}
