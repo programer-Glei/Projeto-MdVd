@@ -1,3 +1,18 @@
+
+*{
+    margin: 0; padding: 0;
+}
+
+
+html{
+    font-size: 62.5%;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+
+
 body{
     margin: 0;
     padding: 0;
@@ -7,10 +22,10 @@ body{
 
 header{
     display: flex;
-    height: 70px;
+    height: 7rem;
     background-color: rgba(255, 255, 255, 0.374);
     backdrop-filter: blur(10px);
-    padding: 0 50px;
+    padding: 0 5rem;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -18,7 +33,7 @@ header{
 }
 
 header h1{
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .search-box{
@@ -68,7 +83,6 @@ nav a:hover{
 .carousel{
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
     position: relative;
     margin-top: -70px;
 }
@@ -103,9 +117,10 @@ nav a:hover{
 }
 
 .content h1{
-    font-size: 65px;
+    font-size: 6.5rem;
     font-weight: bold;
     text-wrap: nowrap;
+    margin: 0;
 }
 
 .details{
@@ -175,7 +190,7 @@ nav a:hover{
     width: 250px;
     height: 140px;
     border-radius: 20px;
-    margin-top: 100px;
+    margin-top: 5rem;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.685);
 }
